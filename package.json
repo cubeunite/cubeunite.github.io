@@ -1,0 +1,31 @@
+{
+  "name": "cubeunite.github.io",
+  "version": "1.0.0",
+  "description": "Cube Unite website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubeunite/cubeunite.github.io.git"
+  },
+  "keywords": [
+    "Cube",
+    "Unite",
+    "website"
+  ],
+  "author": "Y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cubeunite/cubeunite.github.io/issues"
+  },
+  "homepage": "https://github.com/cubeunite/cubeunite.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
